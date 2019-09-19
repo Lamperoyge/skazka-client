@@ -1,0 +1,25 @@
+.cards-container {
+    width: 100%;
+    height: 50vh;
+    margin-top: 20vh;
+}
+
+.cards {
+    max-width: 1720px;
+    margin: 0 auto;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.single-card-normal {
+    height: 30vh;
+}
+
+.single-card-big {
+    height: 50vh;
+    position: relative;
+    top: -6%;
+}

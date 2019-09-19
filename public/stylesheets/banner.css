@@ -1,0 +1,19 @@
+/* .banner-img {
+    height: 500px;
+}
+
+.banner-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}    */
+
+.banner-container {
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+}
+
+.rainbow-carousel-image_image {
+    background-size: cover !important;
+    background-position: 20% 25% !important;
+}

@@ -1,0 +1,34 @@
+.header-container {
+    height: 90vh;
+    width: 100%;
+}
+
+.header {
+    max-width: 1720px;
+    margin: 0 auto;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-header {
+    padding: 30px;
+    margin: auto;
+    display: grid;
+}
+
+.right-header {
+    background-image: url('../img/viraltest.jpg');
+    background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .header {
+        grid-template-columns: 1fr;
+    }
+    .right-header {
+        background-image: url('../img/viraltest.jpg');
+        background-size: cover;
+    }
+  }
